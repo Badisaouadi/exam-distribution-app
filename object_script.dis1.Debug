@@ -1,0 +1,10 @@
+debug/colordelegate.o
+debug/connection.o
+debug/distribution.o
+debug/main.o
+debug/mainwindow.o
+debug/pick_up.o
+debug/moc_colordelegate.o
+debug/moc_distribution.o
+debug/moc_mainwindow.o
+debug/moc_pick_up.o

@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1334</width>
+    <height>738</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-30</y>
+      <width>1331</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>ajout</string>
+     </attribute>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>30</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(234, 237, 255);
+font: 87 13pt &quot;Segoe UI Black&quot;;
+
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Plain</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>distribution</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="logo_1">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>30</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../../OneDrive/Documents/logo-design.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="employes_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>190</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Epreuves</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="purple_3">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>120</y>
+        <width>1111</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget {
+    background-color: #D3CDBC; /* Neutral beige/gray */
+    color: #1F1F1F; /* Dark ink/black for text */
+    font-family: &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+}
+
+QLabel {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1F1F1F;
+}
+
+QPushButton {
+    background-color: #1F1F1F;
+    color: #D3CDBC;
+    border: 2px solid #1F1F1F;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #3B3B3B;
+}
+
+QLineEdit {
+    background-color: #F5F2EB;
+    border: 1px solid #1F1F1F;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+QFrame {
+    border: 1px solid #1F1F1F;
+    border-radius: 5px;
+}
+
+QComboBox {
+    background-color: #F5F2EB;
+    border: 1px solid #1F1F1F;
+    border-radius: 3px;
+    padding: 2px;
+}</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="reservations_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>290</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>centres regionaux</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="evenement_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>390</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>preparattion epreuves</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_logout">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>550</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>se deconnecter</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="chambres_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>340</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>correction epreuve</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="clients_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>240</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>distrubution</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="purple_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-10</y>
+        <width>171</width>
+        <height>741</height>
+       </rect>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(5, 41, 47)
+;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="dashboard_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(232, 231, 244);
+font: 87 16pt &quot;Segoe UI Black&quot;;
+
+</string>
+      </property>
+      <property name="text">
+       <string>Dashboard</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="arrierePlan_7">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-50</y>
+        <width>1291</width>
+        <height>991</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb( 250,  250, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="purple_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1321</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(5, 41, 47)
+;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="evenement_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>440</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>enseignants</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDeadline">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>470</y>
+        <width>986</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Deadline:</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableViewPickUp">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>580</y>
+        <width>981</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QDateTimeEdit" name="dateTimeEditDeadline">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>490</y>
+        <width>986</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDateDebut">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>250</y>
+        <width>986</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Date début:</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableViewDistribution">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>520</y>
+        <width>981</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxTimers">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>756</y>
+        <width>986</width>
+        <height>59</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Temps restant</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayoutTimers_2">
+       <item>
+        <widget class="QLabel" name="labelTimerDistribution">
+         <property name="text">
+          <string>Distribution: -</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelTimerPickUp">
+         <property name="text">
+          <string>Pick-Up: -</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxDistribution">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>140</y>
+        <width>961</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Distribution</string>
+      </property>
+      <layout class="QFormLayout" name="formLayoutDistribution_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelIdDistribution">
+         <property name="text">
+          <string>ID Distribution:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEditIdDistribution"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="labelIdCentreRegional">
+         <property name="text">
+          <string>ID Centre Régional:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEditIdCentreRegional"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="labelEtat">
+         <property name="text">
+          <string>État:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="comboBoxEtat">
+         <item>
+          <property name="text">
+           <string>pas encore</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>en cours</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>distribuée</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxPickUp">
+      <property name="geometry">
+       <rect>
+        <x>245</x>
+        <y>350</y>
+        <width>981</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pick-Up</string>
+      </property>
+      <layout class="QFormLayout" name="formLayoutPickUp_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelIdDistributionPickUp">
+         <property name="text">
+          <string>ID Distribution:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEditIdDistributionPickUp"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="labelMatiere">
+         <property name="text">
+          <string>Matière:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="comboBoxMatiere">
+         <item>
+          <property name="text">
+           <string>Arabe</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Français</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Anglais</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mathématiques</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Physique</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SVT</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="labelIdEpreuve">
+         <property name="text">
+          <string>ID Épreuve:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="lineEditIdEpreuvePickUp"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QDateTimeEdit" name="dateTimeEditFin">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>320</y>
+        <width>986</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDateFin">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>300</y>
+        <width>986</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Date fin:</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>110</y>
+        <width>1001</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButtonCreateDistribution">
+         <property name="text">
+          <string>Créer Distribution</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonUpdateDistribution">
+         <property name="text">
+          <string>Mettre à jour Distribution</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonDeleteDistribution">
+         <property name="text">
+          <string>Supprimer Distribution</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonCreatePickUp">
+         <property name="text">
+          <string>Créer Pick-Up</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonUpdatePickUp">
+         <property name="text">
+          <string>Mettre à jour Pick-Up</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonDeletePickUp">
+         <property name="text">
+          <string>Supprimer Pick-Up</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonExportDistribution">
+         <property name="text">
+          <string>Exporter Distribution PDF</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonExportPickUp">
+         <property name="text">
+          <string>Exporter Pick-Up PDF</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QDateTimeEdit" name="dateTimeEditDebut">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>270</y>
+        <width>986</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>arrierePlan_7</zorder>
+     <zorder>purple_3</zorder>
+     <zorder>purple_4</zorder>
+     <zorder>label_15</zorder>
+     <zorder>logo_1</zorder>
+     <zorder>pushButton_logout</zorder>
+     <zorder>chambres_2</zorder>
+     <zorder>clients_2</zorder>
+     <zorder>reservations_2</zorder>
+     <zorder>evenement_2</zorder>
+     <zorder>employes_2</zorder>
+     <zorder>purple_6</zorder>
+     <zorder>dashboard_2</zorder>
+     <zorder>evenement_3</zorder>
+     <zorder>labelDeadline</zorder>
+     <zorder>tableViewPickUp</zorder>
+     <zorder>dateTimeEditDeadline</zorder>
+     <zorder>labelDateDebut</zorder>
+     <zorder>tableViewDistribution</zorder>
+     <zorder>groupBoxTimers</zorder>
+     <zorder>groupBoxDistribution</zorder>
+     <zorder>groupBoxPickUp</zorder>
+     <zorder>dateTimeEditFin</zorder>
+     <zorder>labelDateFin</zorder>
+     <zorder>layoutWidget</zorder>
+     <zorder>dateTimeEditDebut</zorder>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1334</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

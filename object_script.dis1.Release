@@ -1,0 +1,10 @@
+release/colordelegate.o
+release/connection.o
+release/distribution.o
+release/main.o
+release/mainwindow.o
+release/pick_up.o
+release/moc_colordelegate.o
+release/moc_distribution.o
+release/moc_mainwindow.o
+release/moc_pick_up.o
